@@ -71,7 +71,7 @@ header .logo{
     /* color: black; */
     /* background: linear-gradient(#ffe98d,#e19f27); */
     background: -webkit-linear-gradient(#ffe98d, #e19f27);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -90,7 +90,7 @@ header ul li a{
     font-weight: 600;
     /* color: black; */
     background: -webkit-linear-gradient(#ffe98d, #e19f27);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
     padding: 8px 15px;
@@ -103,7 +103,7 @@ header ul li a:hover{
     box-shadow: 0 15px 35px rgba(0,0,0,0.2);
     /* color:black; */
     background: -webkit-linear-gradient(#ffe98d, #e19f27);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
 }
