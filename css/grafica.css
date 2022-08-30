@@ -240,11 +240,11 @@ header ul li a:hover{
     margin-right:20px;
 }
 
-/* @media screen and (max-width:600px) {
+@media screen and (max-width:600px) {
     .topnav a{
         margin-right:0px;
     }
-} */
+}
 
 .topnav a:hover {
     background-color: #ddd;
