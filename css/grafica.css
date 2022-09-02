@@ -5,7 +5,7 @@ body{
 /* Icone social */
 
 .social{
-    position: absolute;
+    padding: 20 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@ body{
 
     /* background-color: white; */
     background: rgba(255,255,255,0.2);
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
 
     display: flex;
     justify-content: center;
