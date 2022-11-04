@@ -5,6 +5,7 @@ body{
 /* Icone social */
 
 .social{
+    margin-bottom:0;
     padding: 20 0;
     display: flex;
     justify-content: center;
@@ -29,7 +30,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    margin: 0 5px;
+    margin: 0 10px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 
 }
@@ -111,4 +112,20 @@ body{
         display: block;
         text-align: left;
     }
+}
+
+
+
+/* HR */
+
+hr.style-one {
+    margin:auto;
+    width:100px;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
 }
