@@ -38,7 +38,7 @@ body{
 .social li a i{
     transform: scale(0.6);
     transition: 0.5s;
-    color:black;
+    color:lightgray;
 }
 
 .social li:hover a i{

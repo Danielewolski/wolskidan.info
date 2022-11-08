@@ -3,6 +3,8 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/all.min.css">
         <link rel="stylesheet" href="css/grafica.css">
+        <link rel="icon" href="https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico" type="image/x-icon">
+        <title>This is the real facebook</title>
 
         <script>
             function myFunction() {
@@ -29,13 +31,18 @@
                 }
 
             };
+
+            function topFunction() {
+                document.body.scrollTop = 0; // For Safari
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
         </script>
     </head>
 
     <body>
-        <div class="topnav" id="myTopnav">
+        <div class="topnav" id="myTopnav" >
             <div>
-                <a href="#home">
+                <a href="#home" onclick="topFunction()">
                     <img style="height:25px;" src="img\Scritta.png">
                 </a>
             </div>
@@ -171,3 +178,4 @@
     </body>
 
 </html>
+
