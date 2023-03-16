@@ -47,10 +47,9 @@ body{
 
 /* New Site */
 .topnav {
+    z-index:100;
     overflow: hidden;
     background-color: #15151b;
-
-    
     position: fixed;
     top: 0;
     width: 100%;
