@@ -129,3 +129,28 @@ hr.style-one {
     background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
     background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
 }
+
+/* Flex container */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    padding: 0 10px 10px 10px;
+    flex: 60%;
+  }
+  
+  .flex-item-right {
+    padding: 0 10px 10px 10px;
+    flex: 40%;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+  }
