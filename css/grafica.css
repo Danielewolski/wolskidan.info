@@ -1,5 +1,10 @@
-body{
+/* body{
     font-family: 'Quicksand', sans-serif;
+} */
+
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.781), rgba(255, 255, 255, 0.781)), url("../img/bgImg.jpg");
+    background-size: 100% auto;
 }
 
 /* Icone social */
@@ -23,7 +28,8 @@ body{
     height: 50px;
 
     /* background-color: white; */
-    background: rgba(255,255,255,0.2);
+
+    background: rgba(255,255,255,0.2); /* old site */
     /* backdrop-filter: blur(10px); */
 
     display: flex;
@@ -38,7 +44,8 @@ body{
 .social li a i{
     transform: scale(0.6);
     transition: 0.5s;
-    color:lightgray;
+    /* color:lightgray; old site */
+    color: black;
 }
 
 .social li:hover a i{
@@ -153,3 +160,25 @@ hr.style-one {
       flex: 100%;
     }
   }
+
+
+
+/* Pulsanti link */
+
+.divBgImg{
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+}
+
+.divButton {
+    position: relative;
+    margin-bottom: 16px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+    /* transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3) 0s; */
+    box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
+    border-radius: 4px;
+    height:58px;
+}
