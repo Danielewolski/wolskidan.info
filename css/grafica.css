@@ -3,7 +3,7 @@
 } */
 
 body{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.705), rgba(255, 255, 255, 0.705)), url("../img/bgImgFull.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.405), rgba(255, 255, 255, 0.405)), url("../img/esfogatal.jpg");
     background-size: 100% auto;
 }
 
@@ -172,6 +172,7 @@ hr.style-one {
 }
 
 .divButton {
+    cursor: pointer;
     position: relative;
     margin-bottom: 16px;
     border: none;
@@ -181,4 +182,10 @@ hr.style-one {
     box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
     border-radius: 4px;
     height:58px;
+    transition: 100ms linear; 
+}
+
+.divbutton:hover{
+    transform: scale(1.01);
+
 }
